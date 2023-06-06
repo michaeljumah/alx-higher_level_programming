@@ -8,4 +8,3 @@ def uppercase(str):
         new_string += str[i]
 
     print('{0}'.format(new_string))
-
