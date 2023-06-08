@@ -3,7 +3,7 @@ from calculator_1 import add, sub, mul, div
 
 if __name__ == '__main__':
     """
-    the results to be printed are of addition, substract, multiplication
+    prints the results of addition, substract, multiplication
     and division between two numbers
     """
     a = 10
