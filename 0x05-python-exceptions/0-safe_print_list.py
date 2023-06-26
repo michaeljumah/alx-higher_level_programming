@@ -9,7 +9,7 @@ def safe_print_list(my_list=[], x=0):
     Returns:
         The number of elements printed.
     """
-    items_printerd = 0
+    items_printed = 0
     try:
         for elements in mylist[:x]:
             print(elements, end=' ')
