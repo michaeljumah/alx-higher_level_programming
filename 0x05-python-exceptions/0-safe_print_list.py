@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#0-safe_print_list.py
 
 def safe_print_list(my_list=[], x=0):
     """Print x elememts of a list.
@@ -14,7 +13,7 @@ def safe_print_list(my_list=[], x=0):
         for elements in mylist[:x]:
             print(elements, end=' ')
             items_printed += 1
-    except IndexError:
+    except TypeError:
         pass
     finally:
         print()
