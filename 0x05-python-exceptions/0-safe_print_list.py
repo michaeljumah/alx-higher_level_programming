@@ -11,10 +11,11 @@ def safe_print_list(my_list=[], x=0):
     """
     items_printerd = 0
     try:
-        for elements in range(0, x):
-            print("{}".format(my_list[elements]), end="")
+        for elements in mylist[:x]:
+            print(elements, end=' ')
             items_printed += 1
     except IndexError:
         pass
-    print()
+    finally:
+        print()
     return items_printed
