@@ -11,10 +11,10 @@ def safe_print_list(my_list=[], x=0):
     items_printed = 0
     try:
         for elements in range(0, x):
-            print("{}".format(my_list[elements]), end=' ')
+            print("{}".format(my_list[elements]), end="")
             items_printed += 1
     except TypeError:
-        print("Expect typeerror", end=' ')
+        pass
     finally:
-    print()
+        print()
     return items_printed
