@@ -10,7 +10,7 @@ def safe_print_list(my_list=[], x=0):
     """
     items_printed = 0
     try:
-        for elements in mylist[:x]:
+        for elements in my_list[:x]:
             print(elements, end=' ')
             items_printed += 1
     except TypeError:
