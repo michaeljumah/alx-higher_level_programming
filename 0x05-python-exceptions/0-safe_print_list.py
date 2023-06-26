@@ -13,8 +13,7 @@ def safe_print_list(my_list=[], x=0):
         for elements in range(0, x):
             print("{}".format(my_list[elements]), end=' ')
             items_printed += 1
-    except:
-        continue
-    finally:
-        print()
+    except TypeError:
+        pass
+    print()
     return items_printed
