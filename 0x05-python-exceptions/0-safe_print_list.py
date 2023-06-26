@@ -10,8 +10,8 @@ def safe_print_list(my_list=[], x=0):
     """
     items_printed = 0
     try:
-        for elements in my_list[:x]:
-            print(elements, end=' ')
+        for elements in range(0, x):
+            print("{}".format(my_list[elements]), end=' ')
             items_printed += 1
     except TypeError:
         pass
