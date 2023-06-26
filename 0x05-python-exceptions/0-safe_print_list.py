@@ -14,6 +14,7 @@ def safe_print_list(my_list=[], x=0):
             print("{}".format(my_list[elements]), end=' ')
             items_printed += 1
     except TypeError:
-        pass
+        print("Expect typeerror", end=' ')
+    finally:
     print()
     return items_printed
