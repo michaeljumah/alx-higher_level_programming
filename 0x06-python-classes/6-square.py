@@ -2,7 +2,7 @@
 
 """Define a class square."""
 
-class Square(object):
+class Square:
     """class variable size"""
     def __init__(self, size=0, position=(0, 0)):
         """initialize size"""
