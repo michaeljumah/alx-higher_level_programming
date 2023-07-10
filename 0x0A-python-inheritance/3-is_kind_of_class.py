@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class and inherited class_checking function."""
+"""Defines a class adn inherited class_checking function."""
 
 def is_kind_of_class(obj, a_class):
     """
