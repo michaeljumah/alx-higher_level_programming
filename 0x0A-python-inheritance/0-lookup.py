@@ -3,5 +3,5 @@
 
 
 def lookup(obj):
-    """a list object"""
-    print(sorted(obj))
+    """A list object"""
+    return(sorted(obj))
