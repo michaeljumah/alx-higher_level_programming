@@ -8,4 +8,4 @@ def to_json_string(my_obj):
     Args:
         my_obj (obj):any object
     """
-    return json.dumps(obj)
+    return json.dumps(my_obj)
