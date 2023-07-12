@@ -3,7 +3,7 @@
 
 
 def append_write(filename="", text=""):
-    """a function that appends a string with utf-8.
+    """appends a string with utf-8 at the end of the file.
     Args:
         filename (str):the file to be appended
         text (str): the characters to append to the file
