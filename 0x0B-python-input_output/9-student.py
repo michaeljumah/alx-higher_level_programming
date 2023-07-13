@@ -9,4 +9,4 @@ class Student:
         self.age = age
 
     def to_json(self):
-        return json.dumps(student)
+        return self.__dict__
